@@ -8,7 +8,9 @@
   <artifactId>learn</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>springcloud</module>
+    <module>springcloud-erueka</module>
+    <module>springcloud-config</module>
+    <module>springcloud-ribbon</module>
   </modules>
   <packaging>pom</packaging>
 

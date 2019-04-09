@@ -22,12 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="springcloud" />
+        <module name="springcloud-config" />
+        <module name="springcloud-erueka" />
+        <module name="springcloud-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="eureka" target="1.7" />
       <module name="learn" target="1.7" />
       <module name="springcloud" target="1.7" />
+      <module name="springcloud-config" target="1.8" />
+      <module name="springcloud-erueka" target="1.8" />
+      <module name="springcloud-ribbon" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
