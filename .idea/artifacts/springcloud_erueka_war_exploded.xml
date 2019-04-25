@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springcloud-erueka" />
+          <element id="module-output" name="springcloud-erueka-server" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-eureka-server:1.3.1.RELEASE" />
@@ -127,9 +127,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/springcloud-erueka/target/springcloud-euraka/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/springcloud-eureka-server/target/springcloud-euraka/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springcloud-erueka/web/Web" />
+      <element id="javaee-facet-resources" facet="springcloud-erueka-server/web/Web" />
     </root>
   </artifact>
 </component>

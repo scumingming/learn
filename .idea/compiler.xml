@@ -28,7 +28,10 @@
         <module name="netty" />
         <module name="springcloud-bus" />
         <module name="springcloud-config" />
+        <module name="springcloud-config-server" />
         <module name="springcloud-erueka" />
+        <module name="springcloud-eureka-client" />
+        <module name="springcloud-eureka-server" />
         <module name="springcloud-feign" />
         <module name="springcloud-hystrix" />
         <module name="springcloud-ribbon" />
@@ -60,7 +63,10 @@
       <module name="springcloud" target="1.7" />
       <module name="springcloud-bus" target="1.7" />
       <module name="springcloud-config" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
       <module name="springcloud-erueka" target="1.8" />
+      <module name="springcloud-eureka-client" target="1.7" />
+      <module name="springcloud-eureka-server" target="1.8" />
       <module name="springcloud-feign" target="1.7" />
       <module name="springcloud-hystrix" target="1.7" />
       <module name="springcloud-ribbon" target="1.7" />

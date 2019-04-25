@@ -1,10 +1,8 @@
 package netty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelPipeline;
-import io.netty.channel.EventLoopGroup;
+import io.netty.buffer.PooledByteBufAllocator;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -35,9 +33,11 @@ public class TcpServer {
              *  .childerHanlder针对worker group起作用
              * 客户端只能使用handler
              */
-
             serverBootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
+//                    .childOption(ChannelOption.TCP_NODELAY, Boolean.TRUE)
+//                    .childOption(ChannelOption.SO_REUSEADDR, Boolean.TRUE)
+//                    .childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT)
                     .childHandler(new ChannelInitializer<SocketChannel>() {
 
                         @Override

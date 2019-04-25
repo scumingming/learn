@@ -63,7 +63,7 @@ public class TcpClient {
             channel.writeAndFlush("hello,我是tcp client");
 
             //监听server close后执行后面的代码,
-//            channel.closeFuture().sync();
+            channel.closeFuture().sync();
             //channel需要在server writeAndFlush到client之前保持开启状态,否则server报异常
 //            Thread.sleep(1000L);
             System.out.println("server close");

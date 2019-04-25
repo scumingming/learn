@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springcloud-config" />
+          <element id="module-output" name="springcloud-config-server" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.6.RELEASE" />
@@ -109,9 +109,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/springcloud-config/target/springcloud-config/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/springcloud-config-server/target/springcloud-config/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="springcloud-config/web/Web" />
+      <element id="javaee-facet-resources" facet="springcloud-config-server/web/Web" />
     </root>
   </artifact>
 </component>
