@@ -18,6 +18,6 @@
     <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <dubbo:service interface="com.mm.learn.dubbo.api.HelloService" ref="helloService"/>
-
+    <dubbo:service interface="com.mm.learn.dubbo.api.UserService" ref="userService"/>
 
 </beans>

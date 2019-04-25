@@ -22,7 +22,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="base" />
         <module name="dubbo-api" />
+        <module name="dubbo-client" />
+        <module name="netty" />
         <module name="springcloud-bus" />
         <module name="springcloud-config" />
         <module name="springcloud-erueka" />
@@ -46,11 +49,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="base" target="1.7" />
       <module name="dubbo-api" target="1.7" />
+      <module name="dubbo-client" target="1.7" />
       <module name="dubbo-server" target="1.8" />
       <module name="eureka" target="1.7" />
       <module name="learn" target="1.7" />
       <module name="leetcode" target="1.8" />
+      <module name="netty" target="1.7" />
       <module name="springcloud" target="1.7" />
       <module name="springcloud-bus" target="1.7" />
       <module name="springcloud-config" target="1.8" />
