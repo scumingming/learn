@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @RestController
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 public class EurekaClientApplication {
 
 
