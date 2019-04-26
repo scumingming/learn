@@ -25,6 +25,8 @@
         <module name="base" />
         <module name="dubbo-api" />
         <module name="dubbo-client" />
+        <module name="hello-service-1" />
+        <module name="hello-service-2" />
         <module name="netty" />
         <module name="springcloud-bus" />
         <module name="springcloud-config" />
@@ -36,6 +38,9 @@
         <module name="springcloud-feign" />
         <module name="springcloud-hystrix" />
         <module name="springcloud-ribbon" />
+        <module name="springcloud-ribbon2" />
+        <module name="springcloud-turbine-dashbord" />
+        <module name="springcloud-zuul" />
       </profile>
       <profile default="false" name="Annotation profile for dubbo-server" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -58,7 +63,9 @@
       <module name="dubbo-client" target="1.7" />
       <module name="dubbo-server" target="1.8" />
       <module name="eureka" target="1.7" />
-      <module name="learn" target="1.7" />
+      <module name="hello-service-1" target="1.8" />
+      <module name="hello-service-2" target="1.8" />
+      <module name="learn" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="netty" target="1.7" />
       <module name="springcloud" target="1.7" />
@@ -69,9 +76,12 @@
       <module name="springcloud-erueka" target="1.8" />
       <module name="springcloud-eureka-client" target="1.7" />
       <module name="springcloud-eureka-server" target="1.8" />
-      <module name="springcloud-feign" target="1.7" />
+      <module name="springcloud-feign" target="1.8" />
       <module name="springcloud-hystrix" target="1.7" />
-      <module name="springcloud-ribbon" target="1.7" />
+      <module name="springcloud-ribbon" target="1.8" />
+      <module name="springcloud-ribbon2" target="1.7" />
+      <module name="springcloud-turbine-dashbord" target="1.7" />
+      <module name="springcloud-zuul" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

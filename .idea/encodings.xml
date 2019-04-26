@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-service-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-service-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-bus" charset="UTF-8" />
@@ -16,6 +18,10 @@
     <file url="file://$PROJECT_DIR$/springcloud-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-ribbon2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-turbine-dashbord" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

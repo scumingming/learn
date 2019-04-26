@@ -1,0 +1,30 @@
+#eureka.client.service-url.defaultZone=http://localhost:1001/eureka/
+#
+#server.port=1010
+#
+#spring.application.name=zuul-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:1001/eureka/
+
+server:
+  port: 1010
+
+spring:
+  application:
+    name: zuul-service
+
+
+zuul:
+  routes:
+    ribbo:
+      path: /api-ribbon/**
+      serviceId:  ribbon-service
+    feign:
+      path: /api-feign/**
+      serviceId:  feign-service
+    hello:
+      path: /api-hello/*
+      serviceId:  hello-service

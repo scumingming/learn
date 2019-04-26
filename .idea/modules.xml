@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/dubbo-api/dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-client/dubbo-client.iml" filepath="$PROJECT_DIR$/dubbo-client/dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-server/dubbo-server.iml" filepath="$PROJECT_DIR$/dubbo-server/dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service-1/hello-service-1.iml" filepath="$PROJECT_DIR$/hello-service-1/hello-service-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service-2/hello-service-2.iml" filepath="$PROJECT_DIR$/hello-service-2/hello-service-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
@@ -16,7 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" filepath="$PROJECT_DIR$/springcloud-feign/springcloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-hystrix/springcloud-hystrix.iml" filepath="$PROJECT_DIR$/springcloud-hystrix/springcloud-hystrix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" filepath="$PROJECT_DIR$/springcloud-ribbon/springcloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-ribbon2/springcloud-ribbon2.iml" filepath="$PROJECT_DIR$/springcloud-ribbon2/springcloud-ribbon2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-turbine-dashbord/springcloud-turbine-dashbord.iml" filepath="$PROJECT_DIR$/springcloud-turbine-dashbord/springcloud-turbine-dashbord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
     </modules>
   </component>
 </project>
