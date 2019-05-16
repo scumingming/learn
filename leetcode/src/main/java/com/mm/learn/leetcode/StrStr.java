@@ -7,14 +7,14 @@ import java.util.Arrays;
  * 给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)
  * 。如果不存在，则返回  -1。
  *
- *   KMP算法
+ *   KMP算法 部分匹配
  */
 public class StrStr {
 
     public static void main(String[] args) {
 
-        int[] test = new StrStr().getNext("abcdabcaba".toCharArray());
-        System.out.println(Arrays.toString(test));
+//        int[] test = new StrStr().getNext("abcdabcaba".toCharArray());
+//        System.out.println(Arrays.toString(test));
 
         System.out.println(new StrStr().strStr("eghijklmnghijghijghij","ghijghij"));
 
